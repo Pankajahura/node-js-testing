@@ -8,7 +8,7 @@ const startServer = async () => {
   await connectDB();
 
   app.listen(PORT, () => {
-    console.log(`Server listening on por ${PORT}`);
+    console.log(`Server listening on por ${PORT}`)
   });
 };
 
